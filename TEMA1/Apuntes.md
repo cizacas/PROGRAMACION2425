@@ -146,7 +146,7 @@ Tenemos varios entornos disponibles, algunos de código abierto y gratuitos. Un 
 <div class="page"/>
 
 ## TAREA PARA REALIZAR EN CASA
-Debéis instalar el JDK que estamos utilizando en clase versión 22 , y el Netbeans 22 en el equipo de casa. Tendréis que hacer capturas de pantalla donde se vea la fecha y hora para comprobar que la instalación está hecha, del estilo a estos dos recortes:
+Debéis instalar el JDK que estamos utilizando en clase [Java versión 22](https://www.oracle.com/java/technologies/javase/jdk22-archive-downloads.html) , y el [Netbeans 22](https://www.apache.org/dyn/closer.lua/netbeans/netbeans-installers/22/Apache-NetBeans-22-bin-windows-x64.exe) en el equipo de casa. Tendréis que hacer capturas de pantalla donde se vea la fecha y hora para comprobar que la instalación está hecha, del estilo a estos dos recortes:
 
 ![Descripción de la imagen](img/imagen2.png)
 
