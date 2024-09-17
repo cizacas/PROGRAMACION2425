@@ -131,8 +131,8 @@ Una vez que nos ha quedado clara la diferencia entre JRE y JDK, vamos a instalar
 Muestra las últimas versiones
 [Enlace a la página de Oracle](https://www.oracle.com/java/technologies/downloads/)
 
-En nuestro caso vamos a instalar el JDK 20.
-[Enlace a la página de Oracle](https://www.oracle.com/java/technologies/downloads/#jdk20-windows)
+En nuestro caso vamos a instalar el JDK 22.
+[Enlace a la página de Oracle](https://www.oracle.com/java/technologies/javase/jdk22-archive-downloads.html)
 
 #### Entorno de desarrollo
 
@@ -141,12 +141,12 @@ Para que un programador pueda llevar a cabo su tarea, dispone de herramientas pa
 También hay entornos de programación más sofisticados que proporcionan una enorme cantidad de funciones: editor de texto, ayuda, compilador, depurador y, en general, casi cualquier cosa que se nos pueda ocurrir. Estos entornos se conocen como IDE, las siglas en inglés de "entorno integrado de desarrollo".
 Tenemos varios entornos disponibles, algunos de código abierto y gratuitos. Un ejemplo puede ser NetBeans, o Eclipse. En este curso vamos a utilizar NetBeans y la página de descarga es la siguiente:
 
-[Enlace a la página de Netbeans](https://netbeans.apache.org/download/)
+[Enlace a la página de Netbeans] (https://netbeans.apache.org/download/)
 
 <div class="page"/>
 
 ## TAREA PARA REALIZAR EN CASA
-Debéis instalar el JDK que estamos utilizando en clase, y el Netbeans en el equipo de casa. Tendréis que hacer capturas de pantalla donde se vea la fecha y hora para comprobar que la instalación está hecha, del estilo a estos dos recortes:
+Debéis instalar el JDK que estamos utilizando en clase versión 22 , y el Netbeans 22 en el equipo de casa. Tendréis que hacer capturas de pantalla donde se vea la fecha y hora para comprobar que la instalación está hecha, del estilo a estos dos recortes:
 
 ![Descripción de la imagen](img/imagen2.png)
 
@@ -282,16 +282,16 @@ En Java tenemos 8 tipos de datos primitivos:
 - 1 tipo para booleanos: boolean.
 - 1 tipo para carácter: char.
 
-| Tipo | Tamaño | Rango |
-| ------------- | ------------- | ------------- |
-| byte  | 8  | -128 a 127 |
-| short  | 16  | -32.768 a 32.767 |
-| int  | 32  | -2.147.483.648 a 2.147.483.647 |
-| long  | 64  | -9.223.372.036.854.775.808 a 9.223.372.036.854.775.8087 |
-| float  | 32  | +/- 3.4E+38F (6-7 dígitos importantes) |
-| double  | 64  | +/- 1.8E+308 (15 dígitos importantes) |
-| boolean  | 16  | True o False |
-| char  | 8 | conjunto de caracteres UNICODE ISO|
+| Tipo    | Tamaño | Rango                                                   |
+| ------- | ------ | ------------------------------------------------------- |
+| byte    | 8      | -128 a 127                                              |
+| short   | 16     | -32.768 a 32.767                                        |
+| int     | 32     | -2.147.483.648 a 2.147.483.647                          |
+| long    | 64     | -9.223.372.036.854.775.808 a 9.223.372.036.854.775.8087 |
+| float   | 32     | +/- 3.4E+38F (6-7 dígitos importantes)                  |
+| double  | 64     | +/- 1.8E+308 (15 dígitos importantes)                   |
+| boolean | 16     | True o False                                            |
+| char    | 8      | conjunto de caracteres UNICODE ISO                      |
 
 #### Tipos de datos: Enteros
 
@@ -361,15 +361,15 @@ letra=67; //El código Unicode de la C es el 67. Esta línea hace lo mismo que l
 ```
 También hay una serie de caracteres especiales que van precedidos por el símbolo \, son estos:
 
-| Caracter | Significado |
-| ------------- | ------------- |
-| \b  | Retroceso  |
-| \t  | Tabulador  |
-| \n  | Nueva linea  |
-| \r  | Retorno de carro  |
-| \"  | Dobles comillas  |
-| \'  | Comillas simples  |
-| \\  | Barra inclinada  |
+| Caracter | Significado      |
+| -------- | ---------------- |
+| \b       | Retroceso        |
+| \t       | Tabulador        |
+| \n       | Nueva linea      |
+| \r       | Retorno de carro |
+| \"       | Dobles comillas  |
+| \'       | Comillas simples |
+| \\       | Barra inclinada  |
 
 En este momento estamos en condiciones de hacer nuestro primer ejercicio en Java. Haremos el ejercicio 1 y el ejercicio 2 apartados a. y b. de la siguiente hoja de ejercicios:
 
@@ -436,13 +436,13 @@ Tenemos los siguientes tipos:
 
 #### Aritméticos
 
-| Operador | Descripción |
-| ------------- | ------------- |
-| +  | Suma dos operandos  |
-| -  | Resta dos operandos  |
-| *  | Multiplica dos operandos  |
-| /  | Divide dos operandos  |
-| %  | Calcula el resto de dividir el operador1 entre el operador2   |
+| Operador | Descripción                                                 |
+| -------- | ----------------------------------------------------------- |
+| +        | Suma dos operandos                                          |
+| -        | Resta dos operandos                                         |
+| *        | Multiplica dos operandos                                    |
+| /        | Divide dos operandos                                        |
+| %        | Calcula el resto de dividir el operador1 entre el operador2 |
 
 
 **Realiza los siguientes ejercicios:**
@@ -454,12 +454,12 @@ Tenemos los siguientes tipos:
 
 #### Incrementales o unarios
 
-| Operador | Uso | Descripción |
-| ------------- | ------------- | ------------- |
-| ++  | x++  | Incrementa x en 1. Evalúa antes.  |
-| ++  | ++x  | Incrementa x en 1. Evalúa después. |
-| --  | x--  | Decrementa x en 1. Evalúa antes. |
-| --  | --x  | Decrementa x en 1. Evalúa después |
+| Operador | Uso | Descripción                        |
+| -------- | --- | ---------------------------------- |
+| ++       | x++ | Incrementa x en 1. Evalúa antes.   |
+| ++       | ++x | Incrementa x en 1. Evalúa después. |
+| --       | x-- | Decrementa x en 1. Evalúa antes.   |
+| --       | --x | Decrementa x en 1. Evalúa después  |
 
 ```java
 int x = 5, y = 5; 
@@ -471,14 +471,14 @@ System.out.println(y); // imprime 6
 
 #### Relacionales
 
-| Operador | Uso | Devuelve verdadero |
-| ------------- | ------------- | ------------- |
-| >  | x>y  | x es mayor que y  |
-| >=  | x>=y  | x es mayor o igual que y |
-| <  | x< y  | x es menor que y |
-| <=  | x<=y | x es menor o igual que y |
-| == | x==y  | x es igual a y |
-| !=  | x!=y  | x es distinto de y |
+| Operador | Uso  | Devuelve verdadero       |
+| -------- | ---- | ------------------------ |
+| >        | x>y  | x es mayor que y         |
+| >=       | x>=y | x es mayor o igual que y |
+| <        | x< y | x es menor que y         |
+| <=       | x<=y | x es menor o igual que y |
+| ==       | x==y | x es igual a y           |
+| !=       | x!=y | x es distinto de y       |
 
 **Realiza los siguientes ejercicios:**
 
@@ -489,21 +489,21 @@ System.out.println(y); // imprime 6
 
 #### Lógicos
 
-| Operador | Uso | Devuelve verdadero |
-| ------------- | ------------- | ------------- |
-| &&(and)  | condicion1&&condicion2  | condicion1 y condicion2 verdaderas  |
-| \|\|(or)  | condicion1\|\|condicion2  | condicion1 o condicion2 verdaderas |
-| !(not)  | !condicion  | condicion falsa |
+| Operador | Uso                      | Devuelve verdadero                 |
+| -------- | ------------------------ | ---------------------------------- |
+| &&(and)  | condicion1&&condicion2   | condicion1 y condicion2 verdaderas |
+| \|\|(or) | condicion1\|\|condicion2 | condicion1 o condicion2 verdaderas |
+| !(not)   | !condicion               | condicion falsa                    |
 
 #### De asignación
 
-| Operador | Uso | Descripción |
-| ------------- | ------------- | ------------- |
-| =  | x=y  | Asigna a x el valor de y  |
-| +=  | x+=valor  | Equivalente a x=x+valor |
-| -=  | x-=valor  | Equivalente a x=x-valor |
-| \*=  | x\*=valor | Equivalente a x=x\*valor |
-| /= | x/=valor  | Equivalente a x=x/valor |
+| Operador | Uso       | Descripción              |
+| -------- | --------- | ------------------------ |
+| =        | x=y       | Asigna a x el valor de y |
+| +=       | x+=valor  | Equivalente a x=x+valor  |
+| -=       | x-=valor  | Equivalente a x=x-valor  |
+| \*=      | x\*=valor | Equivalente a x=x\*valor |
+| /=       | x/=valor  | Equivalente a x=x/valor  |
 
 ### Expresiones
 
