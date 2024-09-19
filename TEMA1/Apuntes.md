@@ -85,7 +85,6 @@ Resumido en un esquema sería así:
         - Calcular la suma y guardar el resultado en la memoria
         - Imprimir el resultado por pantalla
 
-<div class="page"/>
 
 ## LENGUAJE JAVA Y ENTORNO DE DESARROLLO
 
@@ -106,7 +105,6 @@ Se buscaban principalmente dos cosas:
     * Arquitectura portable: gracias a la máquina virtual de Java
     * Multitarea
 
-<div class="page"/>
 
 ### Ejecución de programas en Java
 
@@ -143,7 +141,6 @@ Tenemos varios entornos disponibles, algunos de código abierto y gratuitos. Un 
 
 [Enlace a la página de Netbeans] (https://netbeans.apache.org/download/)
 
-<div class="page"/>
 
 ## TAREA PARA REALIZAR EN CASA
 Debéis instalar el JDK que estamos utilizando en clase [Java versión 22](https://www.oracle.com/java/technologies/javase/jdk22-archive-downloads.html) , y el [Netbeans 22](https://www.apache.org/dyn/closer.lua/netbeans/netbeans-installers/22/Apache-NetBeans-22-bin-windows-x64.exe) en el equipo de casa. Tendréis que hacer capturas de pantalla donde se vea la fecha y hora para comprobar que la instalación está hecha, del estilo a estos dos recortes:
@@ -152,7 +149,6 @@ Debéis instalar el JDK que estamos utilizando en clase [Java versión 22](https
 
 ![Descripción de la imagen](img/imagen3.png)
 
-<div class="page"/>
 
 ## PROGRAMACIÓN EN JAVA
 
@@ -445,7 +441,6 @@ Tenemos los siguientes tipos:
 | %        | Calcula el resto de dividir el operador1 entre el operador2 |
 
 
-
 #### Incrementales o unarios
 
 | Operador | Uso | Descripción                        |
@@ -474,7 +469,6 @@ System.out.println(y); // imprime 6
 | ==       | x==y | x es igual a y           |
 | !=       | x!=y | x es distinto de y       |
 
-<div class="page"/>
 
 #### Lógicos
 
@@ -505,12 +499,6 @@ Un expresión puede contener constantes, variables y operadores para formar una 
   - Operadores lógicos
   - Operadores de asignación
 
-
-**Realiza el siguiente ejercicio:**
-
-7. Diseña un algoritmo que nos indique si podemos salir a la calle. Existen aspectos que influirán en esta decisión: si está lloviendo y si hemos terminado nuestras tareas. Solo podremos salir a la calle si no está lloviendo y hemos finalizado nuestras tareas. Existe una opción en la que, indistintamente de lo anterior, podremos salir a la calle: el hecho de que tengamos que ir a la biblioteca. Solicitar al usuario mediante booleano si llueve, si ha finalizado las tareas y si necesita ir a la biblioteca. El algoritmo debe mostrar mediante booleano si es posible que se le otorgue el permiso de salir a la calle.
-
-
 ### Constantes
 
 Una constante es una variable de sólo lectura. Dicho de otro modo más correcto, es un valor que no puede variar (por lo tanto no es una variable).
@@ -521,13 +509,7 @@ final double PI=3.141591;
 PI=4; //Error, no podemos cambiar el valor de PI
 ```
 Como medida aconsejable, los nombres de las constantes deberían ir en mayúsculas.
-
-
   
-**Realiza el siguiente ejercicio:**
-
-8. Un frutero necesita calcular los beneficios anuales que obtiene de la venta de manzanas y peras. Por este motivo, es necesario diseñar una aplicación que cree las ventas (en kilos) de cada semestre para cada fruta. La aplicación mostrará el importe total sabiendo que el precio del kilo de manzanas está fijado a 2,35€ y el kilo de peras en 1,95€.
-
 ### Ternario
 
 Este operador devuelve un valor que se selecciona de dos posibles. La selección dependerá de la evaluación de uan expresión relacional o lógica que, como hemos visto, puede tomar dos valores: verdadero o falso.
@@ -546,11 +528,6 @@ int a,b;
 a=3<5 ? 1 : -1; //3<5 es cierto: así que a toma el valor 1.
 b= a == 7 ?10:20; // a (que vale 1) == 7 es falso, así que b toma el valor 20
 ```
-
-**Realiza el siguiente ejercicio:**
-
-1. Escribir un programa que asigne un número el usuario y muestre su valor absoluto.
-
 
 ### Escritura por pantalla
 
@@ -584,39 +561,7 @@ Esta orden mostraría el número 12.345,17 por pantalla.
 
 ### Lectura por teclado
 
-La lectura de teclado, es más complicada que la escritura. Se puede hacer de tres formas distintas:
-1. Visualizando una caja por pantalla: 
-
-- Hay que incluir el paquete javax.swing y utilizar la clase JOptionPane:
-```java
-import javax.swing.JOptionPane;
-```
-Esta clase está pensada para manejar cuadros de diálogo. Uno de estos cuadros permite introducir datos y almacenarlos en una variable. Los datos que devuelve el diálogo, son de tipo String, por lo que habrá que recogerlos en una variable String y luego convertirlos al tipo de dato deseado.
-```java
-String texto; //variable para almacenar los datos recogidos por la caja de texto
-int num;
-texto =JOptionPane.showInputDialog("Escriba un numero");
-num = Integer.parseInt(texto);
-```
-Para convertir el dato recogido por teclado al tipo de dato que nosotros deseamos, usaremos una de las siguientes funciones:
-- Integer.parseInt convierte a int
-- Short.parseShort convierte a short
-- Byte.parseByte convierte a byte
-- Long.parseLong convierte a long
-- Float.parseFloat convierte a float
-- Double.parseDouble convierte a double
-- Boolean.parseBoolean convierte a boolean
-
-Para convertir el dato a caracter aunque tenemos la clase envoltorio __Character__ no dispone de un método en este caso el método lo tiene la clase String y es charAT(pos), donde pos es la posición dentro de una cadena del caracter que queramos convertir a char
-```java
- String texto; //variable para almacenar los datos recogidos por la caja de texto
-        char caracter;
-        texto =JOptionPane.showInputDialog("introduce un caracter");
-        caracter=texto.charAt(0); // coger el primer caracter de la cadena y convertirla a caracter
-        System.out.println("El caracter introducido es "+ caracter);
-
-```
-<div class="page"/>
+La lectura de teclado, es más complicada que la escritura. 
 
 1. Usando la clase System:
 
@@ -644,7 +589,7 @@ int num = Integer.parseInt(cad));
 ```
 <div class="page"/>
 
-1. Usando la clase Scanner: 
+2. Usando la clase Scanner: 
 
 Java a partir de la versión 1.5, incorpora una nueva clase Scanner (import java.util.Scanner), la cual permite leer tipo de datos (int, float, String, etc.), a través de la consola de la aplicación. A continuación, se presenta un ejemplo de su utilización:
 ```java
@@ -665,10 +610,16 @@ System.out.println("Estudias: ");
 estudias=teclado.nextBoolean();
 System.out.println("Salario: ");
 salario=teclado.nextFloat();
-caracter= teclado.next().charAt(0);
+//charAT(pos), donde pos es la posición dentro de una cadena del caracter que queramos convertir a char
+caracter= teclado.next().charAt(0);//coge la primera posición de la cadena introducida
 
 ```
-<div class="page"/>
+
+**Realiza los siguientes ejercicios:**
+
+1. Diseña un algoritmo que nos indique si podemos salir a la calle. Existen aspectos que influirán en esta decisión: si está lloviendo y si hemos terminado nuestras tareas. Solo podremos salir a la calle si no está lloviendo y hemos finalizado nuestras tareas. Existe una opción en la que, indistintamente de lo anterior, podremos salir a la calle: el hecho de que tengamos que ir a la biblioteca. Solicitar al usuario mediante booleano si llueve, si ha finalizado las tareas y si necesita ir a la biblioteca. El algoritmo debe mostrar mediante booleano si es posible que se le otorgue el permiso de salir a la calle.
+2. Un frutero necesita calcular los beneficios anuales que obtiene de la venta de manzanas y peras. Por este motivo, es necesario diseñar una aplicación que cree las ventas (en kilos) de cada semestre para cada fruta. La aplicación mostrará el importe total sabiendo que el precio del kilo de manzanas está fijado a 2,35€ y el kilo de peras en 1,95€.
+
 
 ### Tipos enumerados
 
