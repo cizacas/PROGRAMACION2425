@@ -474,11 +474,6 @@ System.out.println(y); // imprime 6
 | ==       | x==y | x es igual a y           |
 | !=       | x!=y | x es distinto de y       |
 
-**Realiza los siguientes ejercicios:**
-
-5. Realizar una aplicación que ponga tu edad y muestre por pantalla si es mayor de edad (mediante un booleano: true o false).
-6. Escribir un programa que tenga una variable con un número e indique mediante un literal booleano si el número es par.
-
 <div class="page"/>
 
 #### Lógicos
