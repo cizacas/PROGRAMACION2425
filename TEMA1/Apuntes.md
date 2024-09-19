@@ -445,12 +445,6 @@ Tenemos los siguientes tipos:
 | %        | Calcula el resto de dividir el operador1 entre el operador2 |
 
 
-**Realiza los siguientes ejercicios:**
-
-1. Crea una aplicación poniendo tu edad y mostrar la edad que tendrá el próximo año.
-2. Escribir una aplicación que asigna a una variable el año actual y  otra variable para tu nacimiento . Debe calcular tu edad, suponiendo que en el año en curso  ya has cumplido los años.
-3. El tipo short permite almacenar valores comprendidos entre -32768 y 32767. Escribir un programa que compruebe el rango de valores de un tipo se comporta de forma cíclica, es decir, el valor siguiente al máximo es el valor mínimo.
-4. Crear una aplicación que calcule la media aritmética de dos notas enteras. Hay que tener en cuenta que la media puede contener decimales.
 
 #### Incrementales o unarios
 
