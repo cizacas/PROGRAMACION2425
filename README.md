@@ -5,7 +5,7 @@
 
   [Apuntes de la Unidad 1.](TEMA1/Apuntes.md)
 
-**2. UNIDAD 2. Utilización de objetod y desarrollo de clases.**
+**2. UNIDAD 2. Utilización de objetos y desarrollo de clases.**
 
   [Apuntes de la Unidad 2.](TEMA2/Apuntes.md)
 
