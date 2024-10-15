@@ -12,3 +12,10 @@
   [Conceptos de la programación orientada a objetos.](TEMA2/conceptosPOO.md)
 
   [Cadenas de texto en Java](TEMA2/Strings.md)
+
+**3. UNIDAD 3. Estructuras de control.**
+  
+  [Números Aleatorios](TEMA3/Aleatorios.md)
+  
+  [Apuntes de la Unidad 3.](TEMA3/Apuntes.md)
+
