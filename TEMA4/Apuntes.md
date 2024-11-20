@@ -10,7 +10,7 @@
     - [Asignación](#asignación)
     - [Longitud](#longitud)
     - [Inicialización](#inicialización)
-    - [Recorrido de un array ( FOR Y FOR-EACH)](#recorrido-de-un-array--for-y-for-each)
+    - [Recorrido de un array (FOR Y FOR-EACH)](#recorrido-de-un-array-for-y-for-each)
       - [Recorrido de un array FOR-EACH](#recorrido-de-un-array-for-each)
       - [Limitaciones del ciclo FOR-EACH](#limitaciones-del-ciclo-for-each)
   - [ARRAYS DE OBJETOS](#arrays-de-objetos)
@@ -150,7 +150,7 @@ int c[]=b;
 System.out.println(b==c); 	//escribe true
 ```
 
-### Recorrido de un array ( FOR Y FOR-EACH)
+### Recorrido de un array (FOR Y FOR-EACH)
 Al trabajar con Arrays, es común encontrar situaciones en las que cada elemento de un vector debe examinarse, de principio a fin. Por ejemplo, para calcular la suma de los valores contenidos en un vector, cada elemento del vector debe examinarse. 
 
 <div class="page"/>
