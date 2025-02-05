@@ -441,12 +441,12 @@ No definen el tipo de objeto que es, sino lo que pueden hacer (sus  capacidades)
 
 **¿Que son las interfaces?:** Una interfaz es un contrato de compromiso. La clase tiene que implementar los métodos abstractos que tenga dicha interface. Dicho de otro modo, una interface tiene un conjunto de operaciones que una clase se compromete a implementar. 
 
-La interfaz mediante su firma marca qué métodos deben ser sobrescritos. (Firma es la cabecera del método). Lo más habitual es que en ella se definan los métodos abstractos como sucedía antes de Java 8. No es necesario que estos lleven abstract delante. (por defecto)
+La interfaz mediante su firma marca qué métodos deben ser sobrescritos. (Firma es la cabecera del método sin cuerpo). Lo más habitual es que en ella se definan los métodos abstractos como sucedía antes de Java 8. Actualmente noo es necesario que estos lleven **abstract** en la definición ya que por defecto los considera abstractos.
 Desde Java 8, pueden incluir también métodos con cuerpo (abstractos, estáticos y por defecto). También puede incluir atributos que deben inicializarse (constantes).
 
-Usaremos la palabra reservada **Interface** para definir una interfaz. Se usan las misma normas de acceso (visibilidad) que para una clase, así como las mismas reglas de nombres que una clase.. 
+Usaremos la palabra reservada **Interface** para definir una interfaz. Se usan las misma normas de acceso (visibilidad) que para una clase, así como las mismas reglas de nombres que una clase.
 
-Una clase puede heredar interfaces (extends) y esta puede ser múltiple (podemos heredar de varios interfaces).
+Un Interface puede heredar otros interfaces (extends) y esta puede ser múltiple (podemos heredar de varios interfaces).
 
 ![Interfaces](img/Imagen12.png)
 
@@ -454,7 +454,7 @@ Vemos un ejemplo: Ejemplo1Interfaces (sin el main).
 
 ### Implementación en una clase.
 
-Usa implements (como el resto de herencias). Una clase puede implementar más de una interface (simulación de herencia múltiple). Las separado por comas. Es importante ver que no tienen porque existir una relación de herencia entre la clase que las implementa y la/s interfaces. (ES UN). Por ejemplo el método mostrar() de la Interface 2 lo puedo implementar en muchísimas clases.
+Usamos  **implements** para implementar en una clase un interface. Una clase puede implementar más de una interface (y así poder realizar una simulación de herencia múltiple). Si una Clase implementa más de una interface las separamos por comas. Es importante ver que no tienen porque existir una relación de herencia entre la clase que las implementa y la/s interfaces. (ES UN). Por ejemplo el método mostrar() de la Interface 2 lo puedo implementar en muchísimas clases.
 
 ![Interfaces](img/Imagen13.png)
 
