@@ -6,4 +6,4 @@
 4. ¿Cuáles son las interfaces genéricas que hemos utilizado para la ordenación en `arrays`?
 5. ¿Cúal es el método genérico que utiliza la interfaz `Comparable`?
 6. Si hemos definido un array tipo genérico. ¿Se puede realizar la acción new U[10]?
-7. ¿Cuál es la diferencia de utilizar la interfaz `Comparable`o `Comparator` con genéricos a utilizarla sin genéricos?Si tuvieras que definir `arrays` con genéricos. ¿Qué letra identifica mejor **T** o **U**?
+7. ¿Cuál es la diferencia de utilizar la interfaz `Comparable`o `Comparator` con genéricos a utilizarla sin genéricos? 
