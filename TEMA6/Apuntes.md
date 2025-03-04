@@ -29,7 +29,7 @@
     - [Características de los mapas](#características-de-los-mapas)
     - [Principales implementaciones de mapas](#principales-implementaciones-de-mapas)
     - [Interface Map](#interface-map)
-      - [Métodos comnunes de los mapas](#métodos-comnunes-de-los-mapas)
+      - [Métodos comunes de los mapas](#métodos-comunes-de-los-mapas)
     - [Clases de la interfaz Map](#clases-de-la-interfaz-map)
 
 ## Introducción a trabajar con genéricos
@@ -529,7 +529,7 @@ Los mapas son estructuras de datos que permiten almacenar pares de elementos en 
 Representa una estructura de datos para almacenar pares "clave/valor“.
 Para cada clave, solo tiene un valor.
 
-#### Métodos comnunes de los mapas
+#### Métodos comunes de los mapas
 ```java
 nombreMap.size();//Devuelve el número de elementos del Map
 nombreMap.isEmpty();// Devuelve true si no hay elementos en el Map y false si si los hay
