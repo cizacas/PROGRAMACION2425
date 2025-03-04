@@ -32,3 +32,4 @@
 **6. UNIDAD 6. Estructuras de almacenamiento dinámicas. Colecciones y Mapas**
 
 [Apuntes de la unidad 6.](TEMA6/Apuntes.md)
+(TEMA6/preguntas.md)
