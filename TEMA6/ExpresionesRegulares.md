@@ -130,8 +130,8 @@ Tenemos caracteres especiales que nos van a indicar el número de repeticiones d
 
 Tarea para casa: Diseña una clase Teclado con métodos estáticos donde se validen, haciendo uso de excepciones y uso de expresiones regulares, los siguientes métodos:
 
-- IntroEntero
-- IntroDouble
-- IntroNombre
-- IntroBoolean
-- IntroFecha
+- introEntero
+- introDouble
+- introNombre
+- introBoolean
+- introFecha
