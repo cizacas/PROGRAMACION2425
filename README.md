@@ -28,3 +28,7 @@
 **5. UNIDAD 5. Uso avanzado de clases.**
 
 [Apuntes de la unidad 5](TEMA5/Apuntes.md)
+
+**6. UNIDAD 6. Estructuras de almacenamiento dinámicas. Colecciones y Mapas**
+
+[Apuntes de la unidad 6](TEMA6/Apuntes.md)
