@@ -33,4 +33,6 @@
 
 [Apuntes de la unidad 6.](TEMA6/Apuntes.md)
 
+[Expresiones Regulares](TEMA6/ExpresionesRegulares.md)
+
 <a href="TEMA6/preguntas.md" style="display:none;"></a>
