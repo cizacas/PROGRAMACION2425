@@ -36,3 +36,7 @@
 [Expresiones Regulares](TEMA6/ExpresionesRegulares.md)
 
 <a href="TEMA6/preguntas.md" style="display:none;"></a>
+
+**7. UNIDAD 8. Gestión de base de datos relacionales.**
+
+[Apuntes de la unidad 8.](TEMA8/Apuntes.md)
