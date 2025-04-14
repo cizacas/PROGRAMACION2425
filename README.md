@@ -40,3 +40,7 @@
 **7. UNIDAD 8. Gestión de base de datos relacionales.**
 
 [Apuntes de la unidad 8.](TEMA8/Apuntes.md)
+
+**8. UNIDAD 7. Ficheros.**
+
+[Apuntes de la unidad 7.](TEMA7/Apuntes.md)
