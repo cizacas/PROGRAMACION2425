@@ -50,7 +50,7 @@ Para crear nuestro primer objeto Swing vamos a la opción de crear fichero, eleg
 
 En nuestro caso vamos a elegir el tipo __“JFrame Form”__ que es uno de los objetos a utilizar para dibujar una ventana, pero como veis existen otras opciones como por ejemplo "Application Sample Form” y “MDI Aplication Sample Form” son ejemplos que nos permiten partir de código ya realizado.
 Una vez seleccionado el tipo “JFrame Form”, vamos a dar un nombre a la Clase a crear en este caso por ejemplo “VentanaPrincipal”
-Ahora vamos a tener dos pestañas en el documento .java
+Ahora vamos a tener dos pestañas en el panel de edición de netbeans con el archivo `.java`
 
 ### Diseño (Design)
 Una posible configuración de las ventanas de NetBeans es la primera ventana izquierda, en la opción del menú Windows ->Navigator, nos muestra todos los componentes.
