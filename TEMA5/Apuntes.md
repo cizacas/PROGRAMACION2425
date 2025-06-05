@@ -385,7 +385,7 @@ Lo vemos con un ejemplo:
 
 ```java
 public abstract class Vehiculo {
-    public int velocidad=0;
+    protected int velocidad=0;
     public abstract void acelera();  
     public void para() {
         velocidad=0;
@@ -441,7 +441,7 @@ No definen el tipo de objeto que es, sino lo que pueden hacer (sus  capacidades)
 
 **¿Que son las interfaces?:** Una interfaz es un contrato de compromiso. La clase tiene que implementar los métodos abstractos que tenga dicha interface. Dicho de otro modo, una interface tiene un conjunto de operaciones que una clase se compromete a implementar. 
 
-La interfaz mediante su firma marca qué métodos deben ser sobrescritos. (Firma es la cabecera del método sin cuerpo). Lo más habitual es que en ella se definan los métodos abstractos como sucedía antes de Java 8. Actualmente noo es necesario que estos lleven **abstract** en la definición ya que por defecto los considera abstractos.
+La interfaz mediante su firma marca qué métodos deben ser sobrescritos. (Firma es la cabecera del método sin cuerpo). Lo más habitual es que en ella se definan los métodos abstractos como sucedía antes de Java 8. Actualmente no es necesario que estos lleven **abstract** en la definición ya que por defecto los considera abstractos.
 Desde Java 8, pueden incluir también métodos con cuerpo (abstractos, estáticos y por defecto). También puede incluir atributos que deben inicializarse (constantes).
 
 Usaremos la palabra reservada **Interface** para definir una interfaz. Se usan las misma normas de acceso (visibilidad) que para una clase, así como las mismas reglas de nombres que una clase.

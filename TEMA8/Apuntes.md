@@ -135,7 +135,7 @@ public class AccesoBaseDatos {
     }
 
     // método obtener la conexión
-    public Connection getConn() {
+    public Connection getConexion() {
         return conn;
     }
     
@@ -148,7 +148,7 @@ public class AccesoBaseDatos {
                 siCerrada = true;
             }
         } catch (SQLException sqe) {
-            System.out.println("Se produjo un error en el cierre");
+            System.out.println("Se produjo un error en el cierre"+sqe.getMessage());
         }
         return siCerrada;
     }
@@ -156,7 +156,7 @@ public class AccesoBaseDatos {
 ```
 para acceder a la conexión de la base de datos:
 ```java
-Connection conn = AccesoBaseDatos.getInstance().getConn();
+Connection conn = AccesoBaseDatos.getInstance().getConexion();
 ```
 
 ## PASO 2 - CREAR Y EJECUTAR SENTENCIAS
@@ -488,7 +488,16 @@ En `la sentencia Try entre paréntesis no permite acciones de sustitución solo 
         }
     }
 ```
-
+Si nos interesa recuperar el `id` generado en base de datos debemos utilizar un segundo parámetro en la sentencia `prepareStatement` que es
+**Statement.RETURN_GENERATED_KEYS** y una vez ejecutado la inserción recuperar el `id` con el método **getGeneratedKeys**
+```java
+// Recuperar el ID generado
+try (ResultSet rs = stmt.getGeneratedKeys()) {
+    if (rs.next()) {
+        idGenerado = rs.getInt(1); // Obtener el primer valor generado
+    } 
+}
+```
 __Ejemplo:__ ejemplo02
 
 ### PATRÓN  DAO( OBJETO DE ACCESO A DATOS)

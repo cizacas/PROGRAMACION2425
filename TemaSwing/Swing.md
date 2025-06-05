@@ -48,7 +48,7 @@ Para crear nuestro primer objeto Swing vamos a la opción de crear fichero, eleg
 
 ![ventana seleccion](img/creacion.png)
 
-En nuestro caso vamos a elegir el tipo __“JFrame Form”__ que es uno de los objetos a utilizar para dibujar una ventana, pero como veis existen otras opciones como por ejemplo Application Sample Form” y “MDI Aplication Sample Form” son ejemplos que nos permiten partir de código ya realizado.
+En nuestro caso vamos a elegir el tipo __“JFrame Form”__ que es uno de los objetos a utilizar para dibujar una ventana, pero como veis existen otras opciones como por ejemplo "Application Sample Form” y “MDI Aplication Sample Form” son ejemplos que nos permiten partir de código ya realizado.
 Una vez seleccionado el tipo “JFrame Form”, vamos a dar un nombre a la Clase a crear en este caso por ejemplo “VentanaPrincipal”
 Ahora vamos a tener dos pestañas en el documento .java
 
@@ -105,9 +105,9 @@ Existen Diálogos preestablecidos, los cuales pueden tener distinta finalidad:
 A partir de aquí tenemos una serie de controles que podemos utilizar a continuación exponemos los más comunes:
 
 ### JOptionPane
-Para crear diálogos preestablecidos esta la clase JOptionPane. Esta clase implementa métodos (static) de la forma showXXDialog, donde XX va a variar de acuerdo según el tipo de dialogo que se necesite.
-*	Todos los diálogos son modales.
-*	Se puede configurar mediante parámetros: titulo, icono, mensajes, etc.
+Para crear diálogos preestablecidos esta la clase JOptionPane. Esta clase implementa métodos estáticos de la forma showXXDialog, donde XX va a variar de acuerdo según el tipo de dialogo que se necesite.
+* Todos los diálogos son modales
+* Se puede configurar mediante parámetros: titulo, icono, mensajes, etc...
 
 #### JOptionPane.showMessageDialog
 Este método permite mostrar ventanas de diálogo que muestran un mensaje y contienen un botón de aceptación. 

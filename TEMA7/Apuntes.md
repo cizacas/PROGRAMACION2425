@@ -199,7 +199,7 @@ public static void escribirLineaALinea(File fichero) {
         frase = e.nextLine();
         try ( BufferedWriter br = new BufferedWriter(new FileWriter(fichero, true));){
             br.write(frase);
-            br.write(System.lineSeparator());
+            br.newLine();
         } catch (IOException ex) {
             System.err.println(ex.toString());
         }
@@ -257,7 +257,11 @@ public static void leerLineaALinea(File fichero) {
         while ((linea = br.readLine()) != null) {
             System.out.println(linea);
         }
-    } catch (IOException ex) {
+    } 
+    catch (FileNotFoundException e) {
+      System.out.println(e.getMessage());
+    }
+    catch (IOException ex) {
           System.err.println(ex.toString());
         }
     }
@@ -493,6 +497,7 @@ public static void leerFichero(File fichero) {
       }
   } catch (EOFException e) {
       //termina la lectura del fichero
+      fin=true; //no es necesario 
   } catch (ClassNotFoundException e) {
       System.out.println("Error el tipo de objeto no es compatible");
   } catch (FileNotFoundException e) {

@@ -35,7 +35,7 @@ Puedes además sumar o restar días fácilmente:
 LocalDate datePlus = localDateOf.plusDays(7);
 System.out.println(datePlus.toString());  // 2022-10-17
 LocalDate dateMinus = localDateOf.minusDays(7);
-System.out.println(dateMinus.toString()); // 2022-10-03
+System.out.println(dateMinus.toString()); // 2022-10-10
 ```
 Determinar cuál es fecha esta es anterior o posterior respecto a otra:
 <div class="page"/>
